@@ -101,7 +101,7 @@
           </div>
         </div>
     </header>
-    <main class="lg:max-w-7xl mx-auto">
+    <main class="px-3 lg:max-w-7xl mx-auto">
       <!--Club section-->
       <section>
         <div class="">
@@ -149,11 +149,11 @@
               stats, schedules, teams, and video.</p>
           </div>
           
-          <div class="space-y-4 lg:grid grid-cols-2 gap-6">
+          <div class="space-y-4 lg:grid grid-cols-2 gap-6 items-end">
             
             <div class="">
               <!--junior section-->
-              <div class="hero w-full h-full rounded-xl " style="background-image: url('./Images/2.png');">
+              <div class="hero rounded-xl " style="background-image: url('./Images/2.png');">
                 <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
                 <div class="hero-content p-10 text-neutral-content">
                   <div class="justify-start">
@@ -165,9 +165,9 @@
                 </div>
               </div>
             </div>
-            <div>
+            <div class="">
               <!--teenager-->
-              <div class="hero w-full h-full  rounded-xl  " style="background-image: url('./Images/3.png');">
+              <div class="hero  rounded-xl  " style="background-image: url('./Images/3.png');">
                 <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
                 <div class="hero-content p-10 text-neutral-content">
                   <div class="">
@@ -180,7 +180,7 @@
               </div>
       
             </div>
-            <div class=" max-h-[400px] col-start-1 col-end-3">
+            <div class=" lg:col-start-1 col-end-3 max-h-[264px]">
             <!--professional-->
             <div class="hero  ">
               <div class="hero  rounded-xl" style="background-image: url('./Images/4.png');">
@@ -522,9 +522,9 @@
         </section>
         <!--Address section-->
         <section>
-          <div class="lg:flex gap-16 max-h-[764px]">
-            <div class="space-y-6 border-2 rounded-lg p-12">
-              <div class="bg-[#BCED6D1A] p-8 rounded-lg"><img src="./Images/Group 1171275317.png" alt="">
+          <div class="lg:flex gap-5 ">
+            <div class="space-y-6 border-2 rounded-lg p-12 lg:min-w-[45%]">
+              <div class="bg-[#BCED6D1A] p-8 rounded-lg "><img src="./Images/Group 1171275317.png" alt="">
                 <p class="mt-4">Phone Number : <br>
         
                   <span class="font-medium">(+62) 123-321-543</span>
@@ -545,21 +545,22 @@
                 </p>
               </div>
             </div>
-            <div class="lg:grid grid-cols-2  gap-6  ">
+            <div class="lg:grid grid-cols-2 gap-2 ">
               <!--1-->
               <div class="">
                 <div class="label">
                   <span class="label-text font-bold text-xl">Your Name</span>
                 </div>
-                <div><input type="text" placeholder="Enter your full name" class="input input-bordered w-full max-w-xs bg-[#13131808] border-none"
-                     /></div>
+                <div><input type="text" placeholder="Enter your full name"
+                    class="input input-bordered w-full max-w-xs bg-[#13131808] border-none" /></div>
               </div>
               <!--2-->
               <div class="">
                 <div class="label">
                   <span class="label-text font-bold text-xl">Your Email</span>
                 </div>
-                <div><input type="email" placeholder="Enter your email" class="input input-bordered w-full max-w-xs bg-[#13131808] border-none"  />
+                <div><input type="email" placeholder="Enter your email"
+                    class="input input-bordered w-full max-w-xs bg-[#13131808] border-none" />
                 </div>
               </div>
               <!--3-->
@@ -567,31 +568,36 @@
                 <div class="label">
                   <span class="label-text font-bold text-xl">Subject</span>
                 </div>
-                <div><input type="text" placeholder="Enter your subject" class="input input-bordered w-full max-w-xs bg-[#13131808] border-none"
-                   /></div>
+                <div><input type="text" placeholder="Enter your subject"
+                    class="input input-bordered w-full max-w-xs bg-[#13131808] border-none" /></div>
               </div>
               <!--4-->
               <div class="">
                 <div class="label">
                   <span class="label-text font-bold text-xl">Phone Number</span>
                 </div>
-                <div><input type="number" placeholder="Enter your phone number" class="input input-bordered w-[324px] max-w-xs bg-[#13131808] border-none"
-                    /></div>
+                <div><input type="text" placeholder="Enter your phone number"
+                    class="input input-bordered w-[324px] max-w-xs bg-[#13131808] border-none" /></div>
               </div>
               <!--5-->
               <div class="col-start-1 col-end-2 ">
                 <div class="label">
-                  <span class="label-text font-bold text-xl">Phone Number</span>
+                  <span class="label-text font-bold text-xl">Massage</span>
                 </div>
-                <div><input type="text" placeholder="Enter your phone number" class="input input-bordered w-[672px]  max-w-xs bg-[#13131808] border-none"
-                     /></div>
+                <textarea placeholder="Write your massage"
+                  class="textarea textarea-bordered textarea-lg bg-[#13131808] w-full mb-4 lg:min-w-[672px] min-h-[350px] "></textarea>
+                  <div><button class="btn primary bg-red-500 w-full  lg:min-w-[672px]">Submit</button></div>
+
               </div>
+              
+        
             </div>
+        
           </div>
         </section>
         <!--Social media section-->
         <section>
-          <div class="text-center bg-slate-400 rounded-lg p-9 my-12">
+          <div class="text-center bg-[#13131808] rounded-lg p-9 my-12">
             <h2 class="font-extrabold text-2xl mb-6">Social Media</h2>
         
             <div class="grid grid-flow-col gap-4 justify-center">
@@ -617,7 +623,7 @@
 
     </main>
     
-      <footer class="footer lg: p-10 bg-black  justify-center lg: gap-52 ">
+      <footer class="footer lg:p-10 bg-black  justify-center lg:gap-52 ">
         <aside>
           <h1 class="font-bold text-white text-3xl">Get In Touch</h1>
           <p class="text-white">as soon as we know the results of the test. <br> Can I have your phone number</p>
